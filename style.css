@@ -1,0 +1,515 @@
+body {
+  font-family: "Hiragino Kaku Gothic ";
+  height: 2000px;
+}
+
+/* investment information start */
+.investment-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 700px;
+  height: 400px;
+  position: relative;
+  left: 280px;
+  top: 50px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 2px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 30px 0px;
+}
+
+.investment-box__title {
+  position: relative;
+  right: 300px;
+  margin-top: 3px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.investment-box__line {
+  width: 700px;
+  height: 0px;
+  left: 0px;
+  top: 4rem;
+  border: 1px solid #e6e6e6;
+}
+.investment-box__info-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.investment-box__info-content__year {
+  width: 50px;
+  height: 10px;
+  position: relative;
+  right: 200px;
+  top: 20px;
+}
+.investment-box__info-content__tyear {
+  width: 50px;
+  height: 10px;
+  position: relative;
+  right: 210px;
+  top: 20px;
+}
+.investment-box__info-content__logo {
+  position: relative;
+  right: 171px;
+  top: 10px;
+}
+.investment-box__info-content__name {
+  position: relative;
+  right: 150px;
+  top: 20px;
+}
+
+.investment-box__info-content__number {
+  position: relative;
+  right: 120px;
+  top: 20px;
+}
+
+.investment-box__info-content__details {
+  position: relative;
+  right: 40px;
+  top: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.investment-box__info-content__bar {
+  border: 1px solid #c8c8c8;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.investment-box__info-content__sdesc {
+  position: relative;
+  right: 70px;
+}
+
+.investment-box__info-content__tdesc {
+  position: relative;
+  right: 70px;
+}
+
+/* investment information end */
+
+/*news section start  */
+
+.news-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  width: 700px;
+  height: 300px;
+  left: 280px;
+  top: 70px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 2px;
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+  margin: 30px 0px;
+}
+
+.news-section__title {
+  position: relative;
+  right: 300px;
+  margin-top: 3px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.news-section__line {
+  width: 700px;
+  height: 0px;
+  left: 0px;
+  top: 5rem;
+  border: 1px solid #e6e6e6;
+}
+.news-section__info-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.news-section__info-content__year {
+  width: 50px;
+  height: 10px;
+  position: relative;
+  right: 115px;
+  top: 20px;
+}
+
+.news-section__info-content__type {
+  width: 50px;
+  height: 20px;
+  position: relative;
+  right: 100px;
+  top: 20px;
+}
+
+.news-section__info-content__details {
+  font-size: 12px;
+  position: relative;
+  right: 90px;
+  top: 10px;
+}
+
+.news-section__info-content__syear {
+  width: 40px;
+  height: 10px;
+  position: relative;
+  right: 58px;
+  top: 20px;
+}
+
+.news-section__info-content__stype {
+  width: 51px;
+  height: 20px;
+  position: relative;
+  right: 35px;
+  top: 20px;
+}
+
+.news-section__info-content__sdetails {
+  font-size: 11px;
+  position: relative;
+  right: 22px;
+  top: 10px;
+}
+.news-section__info-content__tyear {
+  width: 40px;
+  height: 10px;
+  position: relative;
+  right: 103px;
+  top: 20px;
+}
+
+.news-section__info-content__ttype {
+  width: 50px;
+  height: 20px;
+  position: relative;
+  right: 80px;
+  top: 20px;
+}
+
+.news-section__info-content__tdetails {
+  font-size: 11px;
+  position: relative;
+  right: 68px;
+  top: 10px;
+}
+
+.news-section__info-content__fyear {
+  width: 40px;
+  height: 10px;
+  position: relative;
+  right: 50px;
+  top: 20px;
+}
+
+.news-section__info-content__ftype {
+  width: 50px;
+  height: 20px;
+  position: relative;
+  right: 27px;
+  top: 20px;
+}
+.news-section__info-content__fdetails {
+  font-size: 11.05px;
+  position: relative;
+  right: 12px;
+  top: 10px;
+}
+
+.news-section__info-content__fiyear {
+  width: 40px;
+  height: 10px;
+  position: relative;
+  right: 85px;
+  top: 20px;
+}
+
+.news-section__info-content__fitype {
+  width: 50px;
+  height: 20px;
+  position: relative;
+
+  right: 64px;
+  top: 20px;
+}
+
+.news-section__info-content__fidetails {
+  font-size: 11px;
+  position: relative;
+
+  right: 50px;
+  top: 10px;
+}
+
+/*news section end  */
+
+@media screen and (max-width: 768px) {
+  /* investment information start  */
+  .investment-box {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    width: 770px;
+    height: 1040px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+
+  .investment-box__title {
+    right: 303px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: bold;
+  }
+  .investment-box__line {
+    width: 805px;
+    height: 0px;
+    left: 0px;
+    top: 4rem;
+    border: 1px solid #e6e6e6;
+  }
+  .investment-box__info-content {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+  .investment-box__info-content__year {
+    width: 100px;
+    height: 20px;
+    position: relative;
+    right: 150px;
+    top: 30px;
+  }
+  .investment-box__info-content__tyear {
+    width: 100px;
+    height: 20px;
+    position: relative;
+    right: 150px;
+    top: 30px;
+  }
+  .investment-box__info-content__logo {
+    position: relative;
+    right: 250px;
+    top: 70px;
+    width: 70px;
+  }
+  .investment-box__info-content__name {
+    position: relative;
+    right: 220px;
+    top: 80px;
+    width: 120px;
+  }
+
+  .investment-box__info-content__number {
+    position: relative;
+    right: 190px;
+    top: 80px;
+    width: 150px;
+  }
+  .investment-box__info-content__details {
+    position: relative;
+    right: 150px;
+    top: 70px;
+    width: 400px;
+    font-size: 25px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .investment-box__info-content__sdesc {
+    position: relative;
+    right: 5px;
+  }
+
+  .investment-box__info-content__famount {
+    position: absolute;
+    width: 120px;
+    top: 10px;
+    margin-left: 30px;
+  }
+  .investment-box__info-content__tdesc {
+    position: relative;
+    right: 0px;
+    top: 20px;
+  }
+
+  .investment-box__info-content__samount {
+    width: 79px;
+    height: 27px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  /* investment information end  */
+
+  /*news section start  */
+
+  .news-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    width: 770px;
+    height: 1040px;
+    position: absolute;
+    top: 1200px;
+    left: 0px;
+    right: 0px;
+  }
+  .news-section__title {
+    position: relative;
+    right: 305px;
+    margin-top: 3px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .news-section__line {
+    width: 800px;
+    height: 0px;
+    left: 0px;
+    top: 5rem;
+    border: 1px solid #e6e6e6;
+  }
+  .news-section__info-content__year {
+    width: 90px;
+    height: 15px;
+    position: relative;
+    left: 10px;
+    right: 5px;
+    top: 25px;
+  }
+
+  .news-section__info-content__type {
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 40px;
+    right: 10px;
+    top: 20px;
+  }
+
+  .news-section__info-content__details {
+    font-size: 27px;
+    position: relative;
+    right: 160px;
+    top: 50px;
+  }
+  .news-section__info-content__syear {
+    width: 90px;
+    height: 15px;
+    position: relative;
+    left: 10px;
+    right: 5px;
+    top: 75px;
+  }
+
+  .news-section__info-content__stype {
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 40px;
+    right: 10px;
+    top: 70px;
+  }
+
+  .news-section__info-content__sdetails {
+    font-size: 25px;
+    position: relative;
+    right: 160px;
+    top: 100px;
+  }
+  .news-section__info-content__tyear {
+    width: 90px;
+    height: 15px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    top: 125px;
+  }
+
+  .news-section__info-content__ttype {
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 40px;
+    right: 10px;
+    top: 120px;
+  }
+
+  .news-section__info-content__tdetails {
+    font-size: 25px;
+    position: relative;
+    right: 160px;
+    top: 150px;
+  }
+  .news-section__info-content__fyear {
+    width: 90px;
+    height: 15px;
+    position: relative;
+    left: 6px;
+    right: 1px;
+    top: 175px;
+  }
+
+  .news-section__info-content__ftype {
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 40px;
+    right: 10px;
+    top: 170px;
+  }
+  .news-section__info-content__fdetails {
+    font-size: 25px;
+    position: relative;
+    right: 160px;
+    top: 200px;
+  }
+  .news-section__info-content__fiyear {
+    width: 90px;
+    height: 15px;
+    position: relative;
+    left: 5px;
+    right: 60px;
+    top: 225px;
+  }
+
+  .news-section__info-content__fitype {
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 40px;
+    right: 30px;
+    top: 220px;
+  }
+
+  .news-section__info-content__fidetails {
+    font-size: 25px;
+    position: relative;
+    right: 160px;
+    top: 250px;
+  }
+  /*news section end  */
+}
